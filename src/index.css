@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    --bg-pink-high: #C084FC;
+    --bg-pink-low: #F6F6F6;
+    --bg-gray-20: #F6F6F6;
+}
