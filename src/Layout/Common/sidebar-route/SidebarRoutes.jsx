@@ -1,28 +1,21 @@
 import React from "react";
-import { MdDashboard, MdOutlineSupport } from "react-icons/md";
-import { FaCog, FaList } from "react-icons/fa";
-import { FaRegCircleUser } from "react-icons/fa6";
+import { MdOutlineSupport } from "react-icons/md";
+import { FaCog, FaHouseUser, FaList } from "react-icons/fa";
 import { BiCategory } from "react-icons/bi";
-import { PiSlidersHorizontalBold } from "react-icons/pi";
+import { AiOutlineDashboard } from "react-icons/ai";
 
 export const SidebarRoutes = [
   {
     key: "dashboard",
     label: "Dashboard",
-    icon: MdDashboard,
+    icon: AiOutlineDashboard,
     link: "/",
   },
   {
-    key: "home-slides",
-    label: "Home Slides",
-    icon: PiSlidersHorizontalBold,
-    link: "/home-slides",
-  },
-  {
-    key: "userManagement",
-    label: "User management",
-    icon: FaRegCircleUser,
-    link: "/user/all-user",
+    key: "user",
+    label: "User",
+    icon: FaHouseUser,
+    link: "/user-management",
   },
   {
     key: "listings",
